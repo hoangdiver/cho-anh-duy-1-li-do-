@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Series Approximation</title>
+</head>
+<body>
+    <h1>Taylor Series Approximation</h1>
+
+    <label for="xValue">Nhập giá trị x:</label><br>
+    <input type="number" id="xValue" placeholder="Nhập giá trị x"><br><br>
+
+    <label for="kValue">Nhập giá trị k (ε = 10^-k):</label><br>
+    <input type="number" id="kValue" placeholder="Nhập giá trị k"><br><br>
+
+    <button onclick="performTaylorApproximation()">Tính toán</button>
+
+    <p id="result"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
